@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #3498db;
+    text-decoration-thickness: 2px;
+}
+
+.hero {
+    background: url(./img/hero\ img.png) no-repeat center center/cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.button {
+    background: #3498db;
+    color: white;
+    padding: 1% 4%;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 23%;
+    margin-left: 24%;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f8f8;
+}
+
+.icon {
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.feature:nth-child(1) .icon { background: #3498db; }
+.feature:nth-child(2) .icon { background: #e74c3c; }
+.feature:nth-child(3) .icon { background: #f1c40f; }
+
+.shopping-cart {
+    text-align: center;
+    padding: 40px;
+}
+.shopping-cart h2{
+    display: flex;
+    margin-left: 12%;
+}
+
+.cart-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.cart-image {
+    max-width: 300px;
+    height: auto;
+    margin-right: 21%;
+}
+
+.cart-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.cart-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f1f1f1;
+}
